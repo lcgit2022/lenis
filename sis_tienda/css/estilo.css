@@ -1,0 +1,35 @@
+body{
+	background:url("../img/Y2.jpg"); 
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	font-family: Helvetica;
+	width: 680px;
+	margin: 10px auto;
+	height: 40px
+}
+ul{list-style: none;}
+
+#menu li>a{
+	
+	background-color: Gray;
+	color: white;
+	padding: 10px;
+	display:  block;
+	text-decoration: none;
+	min-width:  100px;
+}
+#menu li>a:hover{
+ color: #808080;
+ background-color: #0000FF;
+}
+#menu>li{
+float: left;
+text-align:center;: 
+}
+#menu>li>ul{display: none;}
+
+#menu>li:hover>ul{display: block;}
